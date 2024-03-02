@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/OIMJAPXQT7G2NQ5P6QITSK7P7A_size-normalized.jpg&w=1440&impolicy=high_res");
+    background-size: 100%;
+}
+.musical-set {
+    margin: 20px auto; /* Center the .musical-set horizontally */
+    display: flex;
+    justify-content: center;
+    gap:50px;
+    align-items: center;
+    height:90vh;
+      width:90vw;
+   
+}
+.key{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+}
